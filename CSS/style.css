@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3F343F;
+}
+
+/* Nav */
+
+.navbar {
+    background-color: #3F343F!important;
+}
+
+.a {
+    color: #D85204;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.a1 {
+    color: #A53131;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.a1:hover {
+    color: #D85204;
+}
+
+.a:hover {
+    color: #F24C26;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #3F343F;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.dropdown-item {
+    color: #3F343F;
+}
+
+.dropdown-item:hover {
+    background-color: #D6C9C1;
+}
+
+
+/* Containers */
+
+.alert-container {
+    padding: 0;
+}
+
+.alert-warning {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #F2892E;
+    border-color: #F2892E;
+    color: white;
+    font-weight: bold;
+    word-spacing: 0.05em;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/bourbon-on-the-rocks.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.callout-container .mark, mark {
+    background-color: #ffce3b;
+    font-weight: bold;
+}
+
+
+.quotes-container {
+    background-color: #3F343F;
+    color: white;
+    font-weight: bold;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+    text-align: justify;
+    position: relative;
+
+}
+
+.features-container {
+    color: white;
+    font-weight: bold;
+    text-align-last: center;
+    text-align: justify;
+}
+
+
+/* Features*/
+
+.features .btn {
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.badge-secondary {
+    background-color: #D85204;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #D85204;
+}
+
+
+
+/* Favourites */
+
+.favourites-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    background: url('../images/whisky-glass.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.table-dark {
+    background-color: #3F343F;
+    opacity: 0.8;
+    border-radius: 20px;
+    border-color: transparent;
+    border: hidden;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #3F343F;
+    opacity: 0.75;
+    margin-top: 1em;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.jumbotron text-center jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron-header1 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #3F343F;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+@media (min-width:760px) {
+
+    .jumbotron:hover {
+        font-size: 1.5em;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        opacity: 0.85;
+    }
+
+}
+
+
