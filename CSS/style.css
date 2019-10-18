@@ -44,6 +44,8 @@ body {
     padding-right: 0;
 }
 
+
+
 .navbar {
     margin-bottom: 0;
     width: 100%;
@@ -51,9 +53,12 @@ body {
     border: 0;
 }
 
+
+
 .navbar .navbar-toggler {
     border: 0;
 }
+
 
 .navbar .navbar-brand {
     font-weight: bold;
@@ -62,6 +67,7 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
 
 .dropdown-item {
     color: #3F343F;
@@ -73,6 +79,15 @@ body {
 
 
 /* Containers */
+
+/*
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+*/
 
 .alert-container {
     padding: 0;
@@ -104,12 +119,19 @@ body {
     position: relative;
 }
 
+/* center center =bottom right*/
 
-.callout-container .mark, mark {
+.callout-container .mark,
+mark {
     background-color: #ffce3b;
     font-weight: bold;
 }
 
+/*
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}*/
 
 .quotes-container {
     background-color: #3F343F;
@@ -140,11 +162,18 @@ body {
     font-weight: bold;
 }
 
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .feature i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 }
+
 
 .badge-secondary {
     background-color: #D85204;
@@ -186,7 +215,7 @@ body {
     border: hidden;
 }
 
-/* Jumbotron */
+/* Jumbotron*/
 
 .jumbotron {
     background-color: #3F343F;
@@ -221,5 +250,3 @@ body {
     }
 
 }
-
-

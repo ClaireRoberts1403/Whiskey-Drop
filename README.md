@@ -1,12 +1,16 @@
-# Whiskey-Drop
-# Whiskey-Drop
+Whiskey-Drop
 
-Module complete commit after styling 
+18/10/19
+Modal issue fixed now working as it should
 
+17/10/19
 Some issues with device stylings below 430px. 
-Also modal now faded and none responsive??
+Module complete commit after styling
+Also modal now faded and none responsive?? 17/10/19
 
-References used following module and to gain additional styling wanted.
+
+
+References used following module and to gain additional styling.
 
 References 
 
